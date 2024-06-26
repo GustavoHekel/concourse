@@ -28,3 +28,4 @@ npm run test
 The app uses a ISR strategy that would re-validate the data every 10 minutes. I took this approach since the data that we're displaying doesn't change very often therefore requesting it constantly wouldn't make a lot of sense in terms of resource management
 
 ### Demo
+https://concourse-five.vercel.app/
