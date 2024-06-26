@@ -16,7 +16,7 @@ const Index: NextPage<IndexPageInterface> = (props) => {
     }
 
     return (
-        <main style={{margin: '50px'}}>
+        <main style={{margin: '16px', overflowX: 'auto'}}>
             <ActivityMap {...rest}/>
         </main>
     );
