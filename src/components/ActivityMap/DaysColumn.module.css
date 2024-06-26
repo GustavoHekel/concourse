@@ -1,0 +1,6 @@
+.daysColumn {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
