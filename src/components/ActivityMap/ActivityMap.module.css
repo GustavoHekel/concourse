@@ -1,3 +1,7 @@
+.container {
+    width: 772px;
+}
+
 .monthsRowContainer {
     display: flex;
     margin-left: 42px

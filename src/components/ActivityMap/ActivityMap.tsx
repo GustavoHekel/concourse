@@ -10,7 +10,7 @@ const ActivityMap: FC<ActivityMapInterface> = ({
                                                    maxActivityPerDay,
                                                    weeksByMonth
                                                }) => {
-    return <>
+    return <div className={styles.container}>
         <div className={styles.monthsRowContainer}>
             <MonthsRow week={activity[0]} weeksByMonth={weeksByMonth}/>
         </div>
@@ -19,7 +19,7 @@ const ActivityMap: FC<ActivityMapInterface> = ({
             <DaysColumn/>
             <HeatMap activity={activity} maxActivityPerDay={maxActivityPerDay}/>
         </div>
-    </>
+    </div>
 }
 
 export default ActivityMap
